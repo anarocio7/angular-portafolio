@@ -15,7 +15,7 @@
     <h1 class="rk-logo"><a [routerLink]="['/']">Ana Angular App<sup>tm</sup></a></h1>
     <nav class="rk-navigation">
       <ul class="rk-menu">
-        <li class="active rk-menu__item"><a [routerLink]="['/']" routerLinkActive="router-link-active" class="rk-menu__link">Home</a>
+        <li class="active rk-menu__item"><a [routerLink]="['/']" routerLinkActive="router-link-active" class="rk-menu__link">{{infoPaginaService.info.titulo}}</a>
         </li>
         <li class="rk-menu__item"><a [routerLink]="['/about']" routerLinkActive="router-link-active"  class="rk-menu__link">Acerca de</a>
         </li>
